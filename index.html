@@ -2,44 +2,71 @@
 <html>
     <head>
         <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <title>WCC Portfolio</title>
+
+        <link rel="stylesheet" href="./css/style.css">
+
     </head>
     <body>
 
-        <!--This is a comment in HTML-->
+        <header>
+            <h1>Jamie Shilvock</h1>
 
-        <!--This week we are keeping things very simple, please do not add anything extra, no CSS styling etc.-->
+        </header>
 
-        <!--Change to your full name below-->
-        <h1>Jamie Shilvock</h1>
+        <main>
+            <h3>Term 1</h3>
+            <section class="flex-container">
+                <div class="flex-item"> 
+                    <a href="/p5selfPortrait">
+                        <h4>p5js self portrait</h4>
+                    </a>
+                </div>
+            </section>
 
-        <h3>Term 1</h3>
+            <h3>Term 2</h3>
+            <section class="flex-container">
 
-        <!--Add two to five links to projects from last term that you should host on github-->
-        <ul>
-            <li>
-                <!--This is a link, the href value should contain the url or relative path to a page. / means the root folder of the directory structure-->
-                <a href="/p5selfPortrait">p5js self portrait</a>
-            </li>
-            <li>
-                <!-- Keep adding as many new list items with links as you need-->
-                <a href="/aBoxFormedOfBoxes">a box formed of boxes</a>
-            </li>
-        </ul>
+                <div class="flex-item"> 
+                    <a href="/ConcretePoem">
+                        <h4>1. Hypertext Concrete Poem</h4>
+                    </a>
+                </div>
+         
+                <div class="flex-item"> 
+                    <a href="/wcc-illusion-of-life">
+                        <h4>2. Illusion of Life</h4>
+                    </a>
+                </div>
 
-        <h3>Term 2</h3>
+                <div class="flex-item"> 
+                    <a href="/wcc-data-art">
+                        <h4>3. Crhistianity Image Scrape Visualisation</h4>
+                    </a>
+                </div>
 
-        <!-- Change the href attribute value from / to the url to your project -->
-        <ul>
-            <li>
-                <a href="/ConcretePoem">week 1 -- hypertext concrete poem</a>
-            </li>
-            <li>
-                <a href="/wcc-illusion-of-life">week 2 -- illusion of life</a>
-            </li>            
-            <li>
-                <a href="/wcc-data-art">week 3 -- Christianity image scrape visualisation</a>
-            </li>
-        </ul>
+                <div class="flex-item"> 
+                    <a href="/wcc-iss-tracker">
+                        <h4>Data 1st Way</h4>
+                    <a href="/wcc-the-iss-is-not-here">
+                        <h4>Data 2nd Way</h4>
+                </div>
+
+                    <!-- Keep adding per week -->
+
+                
+            </section> 
+
+        </main>
+        <footer>
+           <!-- normally information like contact details etc  -->
+           <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+           
+        </footer>
+
     </body>
 </html>
