@@ -76,6 +76,29 @@ footer{
     background-image: url(../assets/images/custom-image-name.jpeg); 
 } */
 
+.flex-item a#my-special-id-1{
+    background-image: url('assets/images/JamieShilvock_SelfPortrait.png'); 
+}
+
+.flex-item a#my-special-id-2{
+    background-image: url('assets/images/ConcretePoem.png'); 
+}
+
+.flex-item a#my-special-id-3{
+    background-image: url('assets/images/IllusionOfLife.png'); 
+}
+
+.flex-item a#my-special-id-4{
+    background-image: url('assets/images/ChristianImageScrape.png'); 
+}
+
+.flex-item a#my-special-id-5{
+    background-image: url('assets/images/isstrack.png'); 
+}
+
+.flex-item a#my-special-id-6{
+    background-image: url('assets/images/issNotTrack.png'); 
+}
 
 .flex-item a:hover{
     color:#bbbbbb;
